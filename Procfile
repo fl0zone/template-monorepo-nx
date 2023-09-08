@@ -1,1 +1,1 @@
-web: npx nx run $APP_NAME:serve
+web: npm run start:$APP_NAME
