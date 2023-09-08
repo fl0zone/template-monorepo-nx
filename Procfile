@@ -1,1 +1,0 @@
-web: npx nx run $APP_NAME:serve
