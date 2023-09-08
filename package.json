@@ -3,8 +3,11 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "nx serve",
+    "start:api": "nx run api:serve:production",
+    "start:frontend": "nx run frontend:serve:production",
     "build": "nx run-many --target=build",
+    "build:api": "nx run api:build:production",
+    "build:frontend": "nx run frontend:build:production",
     "test": "nx test"
   },
   "private": true,
